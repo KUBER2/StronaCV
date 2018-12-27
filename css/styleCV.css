@@ -1,0 +1,138 @@
+body{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url(../img/tlo.png);
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#homePage{
+	width:100%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:70px;	
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px;
+	text-align:center;
+	background-color:#303030;
+	border-bottom: 2px solid #000000;
+	
+}
+a.homePage{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;	
+}
+#container{
+	width:976px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:white;
+	padding: 10px;
+	border-right: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+}
+#spis{
+	width:976px;
+	
+	font-size: 24px;
+	text-align:center;
+}
+ol{
+	margin-top:5px;
+}
+ol > li{
+	tex-transform:uppercase;
+	padding: 2px;
+	font-weight:700;
+	letter-spacing:1px;
+	list-style-type:none;
+}
+h1{
+	font-size: 28px;
+	text-align:center;
+	margin: 30px 0px 30px 0px;
+	text-decoration:underline;
+}
+#foto{
+	width:200;
+	float:left;
+	
+}
+.squareLeftFoto{
+	margin-top:50px;
+	width:280px;
+	float:left;	
+}
+.squareRightFoto{
+	margin-top:50px;
+	width:480px;
+	float:left;	
+}
+.squareLeft{
+	
+	width:200px;
+	float:left;
+	text-align:right;
+	vertical-align: middle;
+	padding-top:20px;
+}
+.squareRight{
+	text-align:left;
+	width:721px;
+	float:left;
+	margin-left:15px;
+	padding-top:20px;
+}
+.squareLeftFoto > ul{
+	text-align:right;
+	list-style-type:none;
+}
+.squareRightFoto>ul{
+	text-align:left;
+	list-style-type:none;
+}
+.rectangle{
+	width:936px;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:center;
+}
+
+li>a{
+	color:black;
+	text-decoration:none;
+	display:block;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+li>a:hover{
+	background-color:#dddddd;
+}
+.university{
+	margin-top:20px;
+}
+.experianceBlock{
+	margin:20px 0px 20px 0px;
+	border-top: 1px solid #030303;
+}
+.employes{
+	margin:10px 0px 10px 0px;
+	font-size:24px;
+	color:#264e8e;
+}
+.skillSet{
+	width:936px;
+	height:100px;
+	margin-bottom:10px;
+	border-top: 1px solid #030303;	
+}
+a.skillSetLink{
+	text-decoration:none;
+	color:#aa0993
+}
+a.skillSetLink:hover{
+	background-color:#dddddd;
+}

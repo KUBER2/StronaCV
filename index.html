@@ -14,32 +14,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
 	
 	<script src="scripts/timer.js"></script>
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+		
 	
 	
-</head>
+</head> 
 <body onload="odliczanie();">
 
 
 
 	<div id="container">
 		<div class="rectangle">	
-			<a href="index.html" class="logo"><div id = "logo">Jakub Rola</div></a>
+			<div id = "logo">Jakub Rola</div>
 			<div id="zegar">12:00:00</div>
 			<div style="clear:both;"></div>
 		</div>	
 		<div class="squere">
-			<div class="tile1">
+			<div class="tile1" id = "whoAmI">
 				<a href="podstrony/kimjestem.html" class="tilelink">
 				<i class="icon-user"></i>
 				<br/>Kim jestem
 				</a>
 			</div>
-			<a href="#" class="tilelinkHTML5">
-			<div class="tile1">
+			
+			<div class="tile1" id="offer">
 				<i class="icon-laptop"></i>
-				<br/>Co oferujÄ
+				<br/>Co oferuję
 			</div>
-			</a>
+			
 			<div style="clear:both;"></div>
 			<div class="tile2">
 				<a href="podstrony/cv.html" class="tilelink">
@@ -47,21 +49,23 @@
 				<br/>Curriculum vitae
 				</a>
 			</div>
-			<div class="tile3">
-				<a href="podstrony/kontakt.html" class="tilelink">
+			<div class="tile3" id = "contact">
+				
 				<i class="icon-mail"></i>
 				<br/>Kontakt
 				</a>
 			</div>
 			<div style="clear:both;"></div>
-			<div class="tile4">Najprostsze rady sÄ najlepsze!<br/>Po prostu zacznij i nie przestawaj.</div>		
+			<div class="tile4">Najprostsze rady są najlepsze!<br/>Po prostu zacznij i nie przestawaj.</div>		
 		</div>
 		<div class="squere">
-			<div class="tile5">
-				Witaj na moje stronie.<br/><br/>
-				Ta witryna powstaĹa z myĹlÄ o reklamie mojej osoby.
-				Znajdziejsz na niej informacje o mojej osobie, doĹwiadczeniu zawodowym, materiaĹach pomocniczch wykanany jako nauczyciel oraz wiele innych.	ĹmiaĹo przegladaj zawaroĹÄ, jeĹźeli masz jakieĹ pytania to pisz mejla! MiĹej zabawy.
-				
+			<div class="tile5" id="contentDiv">
+				<h2 id = "contentHeader">Witaj na moje stronie</h2>
+				<p id = "contentParagraph">Ta witryna powstała z myślą o reklamie mojej osoby.
+				Znajdziejsz na niej informacje o mojej osobie, doświadczeniu zawodowym, 
+				materiałach pomocniczch wykanany jako nauczyciel oraz wiele innych.	Śmiało 
+				przegladaj zawarość, jeżeli masz jakieś pytania to pisz śmiało mejla! Miłej zabawy.
+				</p>
 				
 			</div>
 			<div class="yt">
@@ -90,6 +94,8 @@
 		</div>
 		
 	</div>
+
+	<script src="scripts/loadContent.js"></script>
 	
 </body>
 </html>

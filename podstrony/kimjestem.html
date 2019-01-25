@@ -28,7 +28,7 @@
 		<div class="nav">
 			<ol>
 				
-				<li><a href="../index.html">Strona główna</a></li>
+				<li><a href="zatrudnij-programiste-webowego">Strona główna</a></li>
 				<li><a href="#">Programowanie</a>
 					<ul>
 						<li><a href="#">Java</a></li>
@@ -56,7 +56,7 @@
 				<li><a href="jezyki.html">Języki</a>
 					<ul>
 						<li><a href="jezyki.html">Angielski</a></li>
-						<li><a href="jezyki.html">Hiszpański</a></li>
+						<li><a href="../hiszpanski/hiszpanski.php">Hiszpański</a></li>
 					</ul>
 				</li>
 				<li><a href="#">IT</a>
@@ -94,13 +94,13 @@
 		var NavY = $('.nav').offset().top;
 		 
 		var stickyNav = function(){
-		var ScrollY = $(window).scrollTop();
-			  
-		if (ScrollY > NavY) { 
-			$('.nav').addClass('sticky');
-		} else {
-			$('.nav').removeClass('sticky'); 
-		}
+			var ScrollY = $(window).scrollTop();
+				  
+			if (ScrollY > NavY) { 
+				$('.nav').addClass('sticky');
+			} else {
+				$('.nav').removeClass('sticky'); 
+			}
 		};
 		 
 		stickyNav();

@@ -1,0 +1,16 @@
+
+.navbar-brand{
+    font-size:27px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: rgba(255,255,255,.5);
+}
+
+ul.nav-tabs>li>a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    color: whitesmoke;
+}
